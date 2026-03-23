@@ -20,12 +20,6 @@ This repository demonstrates fine-tuning the Qwen 3B model to perform mathematic
 pip install -q unsloth
 ```
 
-## Dataset Preparation
-Dataset used:
-- [Ashkchamp/Openthoughts_math_filtered_30K](https://huggingface.co/datasets/Ashkchamp/Openthoughts_math_filtered_30K)
-
-Data preprocessing involves structured prompts containing the system context, mathematical questions, detailed Chain-of-Thought reasoning, and explicitly formatted solutions.
-
 ## Training
 Fine-tuning configurations:
 - Batch Size: 2 (with gradient accumulation of 4 steps)
